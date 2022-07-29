@@ -31,6 +31,7 @@ If you wonder how is Java Compatibility for ImanitySpigot3, you can check this s
 | Java 15 |   ❔   | Untested.                                                                                                                |
 | Java 16 |  ⚠️   | Natively Supported, Startup flag `--illegal-access=permit` required.<br/>A huge portion of Plugins may not be Supported. |
 | Java 17 |  ⚠️   | Natively Supported, A huge portion of the Plugin may not be Supported.                                                   |
+| Java 18 |   ❔   | Untested.                                                                                                                |
 
 ## Plugin Compatibility
 
