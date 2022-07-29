@@ -1,0 +1,12 @@
+{
+  "position": 3,
+  "label": "KnockBack",
+  "link": {
+    "type": "generated-index",
+    "title": "KnockBack",
+    "slug": "/category/imanityspigot-kb"
+  },
+  "customProps": {
+    "description": "This description can be used in the swizzled DocCard"
+  }
+}

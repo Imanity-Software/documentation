@@ -1,0 +1,9 @@
+{
+  "label": "Frequently Asked Question",
+  "position": 1000,
+  "link": {
+    "type": "generated-index",
+    "description": "Please read this before asking any questions!\nYour problem may be solved in this selection!",
+    "slug": "/category/imanityspigot-faq"
+  }
+}
