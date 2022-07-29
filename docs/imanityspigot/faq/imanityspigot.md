@@ -13,7 +13,7 @@ using ImanitySpigot3.
 
 ## Is there an API Documentation for Developers?
 
-[**Yes, of course, we do!**](/docs/category/api "Developer API")
+[**Yes, of course, we do!**](/docs/category/imanityspigot-api "Developer API")
 
 ---
 
