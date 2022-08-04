@@ -33,4 +33,5 @@ Please keep in mind you **may** need to delete all the relevant config files.
 ## **How to launch Rancha?**
 
 There are **
-zero** difference to launch Rancha between Spigot. You only need to change the target file in your startup flag. For instance, if your jvm startup flag is `java -jar Spigot.jar` just replace the .jar to Rancha: `java -jar Rancha.jar`.
+zero** difference to launch Rancha between Spigot. You only need to change the target file in your startup flag. For
+instance, if your jvm startup flag is `java -jar Spigot.jar` just replace the .jar to Rancha: `java -jar Rancha.jar`.

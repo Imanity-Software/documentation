@@ -13,9 +13,9 @@ If you wonder how is Java Compatibility for ImanitySpigot3, you can check this s
 **Level Type**
 
 > ✅ — Well Supported, You can expect it to work well without problems  
-⚠ — Supported, But it may have trouble either being a native problem or plugin problem  
-❌ — Not even natively supported.  
-❔ — Untested
+> ⚠ — Supported, But it may have trouble either being a native problem or plugin problem  
+> ❌ — Not even natively supported.  
+> ❔ — Untested
 
 ### **Official Oracle Java / JDK**
 

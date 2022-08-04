@@ -16,7 +16,6 @@ The main command that contains features such as ChunkAnalyzer, Lag Spike Detecto
 
 **Aliases:** `/imanity`, `/ispigot`
 
-
 **Usages**
 
 ### `reload` {#reload}
@@ -29,23 +28,25 @@ Please note that this command will reload configurations but some options may be
 
 ### `syncload` {#syncload}
 
-The main command for sync loads' catcher data. 
-Sync load catcher is a tool to catch when an attempt to load chunk synchronicity, 
-which is an action being very harmful when you have async chunk enabled. 
+The main command for sync loads' catcher data.
+Sync load catcher is a tool to catch when an attempt to load chunk synchronicity,
+which is an action being very harmful when you have async chunk enabled.
 
-Using this tool, you can get stacktrace and their used count. 
+Using this tool, you can get stacktrace and their used count.
 
-If your server is lagging and have async chunk enabled but your server consumes chunks. 
-Try using this tool to see if there is any sync load happening. We generally want to prevent any sync load from happening.
+If your server is lagging and have async chunk enabled but your server consumes chunks.
+Try using this tool to see if there is any sync load happening. We generally want to prevent any sync load from
+happening.
 
 **This tool only being useful when you are a developer, and you understand how to read stacktrace.**
 
 :::caution
 
 In order to enable sync load catcher you will need to have
+
 - Async Chunk **enabled**
 - `-Dimanity.debug-sync-loads=true` in your startup flags
-:::
+  :::
 
 #### `syncload export` {#syncload-export}
 
@@ -69,9 +70,10 @@ If you find that your server has loaded an unreasonable amount of chunks, try to
 :::caution
 
 In order to enable sync load catcher you will need to have
+
 - Async Chunk **enabled**
 - `-Dimanity.debug-sync-loads=true` in your startup flags
-:::
+  :::
 
 ---
 
@@ -81,8 +83,9 @@ Chunk Analyzer is a **Premium only** feature.
 
 ### `chunkAnalyzer` {#chunkanalyzer}
 
-The tool to analyze chunk tick time data. 
-It is very useful to see what chunk is causing server lag, you will have to start the analyzer for analyzer to cache tick time data, and stop it to check cached information.
+The tool to analyze chunk tick time data.
+It is very useful to see what chunk is causing server lag, you will have to start the analyzer for analyzer to cache
+tick time data, and stop it to check cached information.
 
 #### `chunkAnalyzer start` {#chunkanalyzer-start}
 
@@ -94,11 +97,13 @@ Stop the chunk analyzer.
 
 #### `chunkAnalyzer show` {#chunkanalyzer-show}
 
-Display analyzer information. This command will sort information and highlight chunks that have unusual tick times. Give you the ability to find lags quickly.
+Display analyzer information. This command will sort information and highlight chunks that have unusual tick times. Give
+you the ability to find lags quickly.
 
 #### `chunkAnalyzer export` {#chunkanalyzer-export}
 
-Export analyzer information. It will export as JSON format, and you can save it or share it to anyone for situations such as discussing with developers. 
+Export analyzer information. It will export as JSON format, and you can save it or share it to anyone for situations
+such as discussing with developers.
 
 You can use the flag `-u` to upload the JSON to [code.imanity.dev](https://code.imanity.dev)
 

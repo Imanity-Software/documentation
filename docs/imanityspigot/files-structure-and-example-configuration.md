@@ -32,6 +32,7 @@ imanity
 ---
 
 ### config.yml
+
 ```yaml title="imanity/config.yml"
 # -------------------------------------------------------
 # Imanity Software © 2019 ~ 2022
@@ -423,6 +424,7 @@ bookExploitPatch:
 ```
 
 ### rancha.yml
+
 ```yaml title="imanity/rancha.yml"
 # -------------------------------------------------------
 # Imanity Software © 2019 ~ 2022
@@ -501,6 +503,7 @@ forceNettyUseUnpoolBuffer: true
 ```
 
 ### knockback.yml
+
 ```yaml title="imanity/knockback.yml"
 # -------------------------------------------------------
 # Imanity Software © 2019 ~ 2022
@@ -531,6 +534,7 @@ pastebinDevKey: ''
 ```
 
 ### premium.yml
+
 ```yaml title="imanity/premium.yml"
 # -------------------------------------------------------
 # Imanity Software © 2019 ~ 2022
@@ -714,6 +718,7 @@ lagSpikeLogging:
 ```
 
 ### worlds/default.yml
+
 ```yaml title="worlds/default.yml"
 # -------------------------------------------------------
 # Imanity Software © 2019 ~ 2022

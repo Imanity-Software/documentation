@@ -8,9 +8,11 @@ Do something programmatically with ImanitySpigot!
 
 ![version][apiVersion-url]
 
-Many of the features that make ImanitySpigot 3 so successful are available through the API. This API lets you do something programmatically so that you can do something from various sources leveraging the power of ImanitySpigot 3.
+Many of the features that make ImanitySpigot 3 so successful are available through the API. This API lets you do
+something programmatically so that you can do something from various sources leveraging the power of ImanitySpigot 3.
 
-**Please read this page completely before using the API. This page contains everything to help you get started and what you must know.**
+**Please read this page completely before using the API. This page contains everything to help you get started and what
+you must know.**
 
 :::caution
 The new API documentation is not yet complete.
@@ -33,18 +35,21 @@ Please refer to the **[old documentation](#)** we created.
 Add Imanity Maven Repository to your Maven Project
 
 ```xml
-    <repositories>
-        <!-- Imanity repo -->
-        <repository>
-            <id>imanity-repo</id>
-            <url>https://maven.imanity.dev/imanity-libraries/</url>
-        </repository>
-    </repositories>
+
+<repositories>
+    <!-- Imanity repo -->
+    <repository>
+        <id>imanity-repo</id>
+        <url>https://maven.imanity.dev/imanity-libraries/</url>
+    </repository>
+</repositories>
 ```
 
 Add Imanity Spigot API to your Maven Project Dependency
 
 ```xml
+
+<dependencies>
     <!-- ImanitySpigot API -->
     <dependency>
         <groupId>org.imanity.imanityspigot</groupId>
@@ -60,6 +65,7 @@ Add Imanity Spigot API to your Maven Project Dependency
         <version>1.8.8</version>
         <scope>provided</scope>
     </dependency>
+</dependencies>
 ```
 
 ---
@@ -84,6 +90,5 @@ dependencies {
     compileOnly 'org.imanity.paperspigot:paper1.8.8:1.8.8'
 }
 ```
-
 
 [apiVersion-url]: https://img.shields.io/badge/dynamic/json?color=blue&label=API%20Version&query=version&url=https%3A%2F%2Frepo.imanity.dev%2Fapi%2Fmaven%2Flatest%2Fversion%2Fimanity-libraries%2Forg%252Fimanity%252Fimanityspigot%252Fapi&style=for-the-badge
