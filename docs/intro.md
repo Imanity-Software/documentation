@@ -9,4 +9,4 @@ sidebar_position: 1
 
 ◀ Getting started by selecting a category on the left!
 
-Have no idea what you want to view first? Try [ImanitySpigot](/docs/category/imanityspigot)!
+Have no idea what you want to view first? Try [ImanitySpigot](/category/imanityspigot)!
