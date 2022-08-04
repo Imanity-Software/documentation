@@ -33,6 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           showLastUpdateAuthor: true,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -40,13 +41,7 @@ const config = {
           // editUrl:
           //   'https://github.com/Imanity-Software/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          //   'https://github.com/Imanity-Software/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -70,7 +65,6 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://go.imanity.dev/discord',
             label: 'Discord',
@@ -102,7 +96,7 @@ const config = {
             items: [
               {
                 label: 'ImanitySpigot',
-                to: '/docs/category/imanityspigot',
+                to: '/category/imanityspigot',
               },
             ],
           },
