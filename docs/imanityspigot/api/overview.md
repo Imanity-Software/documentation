@@ -1,5 +1,6 @@
 ---
 id: api-overview
+sidebar_position: 1
 ---
 
 # Overview
@@ -13,12 +14,6 @@ something programmatically so that you can do something from various sources lev
 
 **Please read this page completely before using the API. This page contains everything to help you get started and what
 you must know.**
-
-:::caution
-The new API documentation is not yet complete.
-
-Please refer to the **[old documentation](#)** we created.
-:::
 
 ---
 
@@ -57,7 +52,7 @@ Add Imanity Spigot API to your Maven Project Dependency
         <version>{VERSION}</version>
         <scope>provided</scope>
     </dependency>
-    
+
     <!-- Original PaperSpigot -->
     <dependency>
         <groupId>org.imanity.paperspigot</groupId>

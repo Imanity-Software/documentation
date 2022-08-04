@@ -2,9 +2,8 @@
   "position": 4,
   "label": "API",
   "link": {
-    "type": "generated-index",
-    "title": "API",
-    "slug": "/category/imanityspigot-api"
+    "type": "doc",
+    "id": "imanityspigot/api/api-overview"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
