@@ -39,7 +39,17 @@ or **[ProtocolSupport](https://protocol.support/old/)**.
 
 ## For ImanitySpigot v2 users:
 
-### I'm an existing customer of ImanitySpigot 2, how do I upgrade to ImanitySpigot 3?
+:::danger Note for ImanitySpigot v2 users
+
+We highly encourage you to **use ImanitySpigot v3 over ImanitySpigot v2**, as v2 already deprecated.
+
+You will not receive any support or updates from us.
+
+Please consider updating to [**ImanitySpigot 3**](#upgrade-to-imanityspigot3) as soon as possible before version
+2 is removed.
+:::
+
+### I'm an existing customer of ImanitySpigot 2, how do I upgrade to ImanitySpigot 3? {#upgrade-to-imanityspigot3}
 
 :::tip
 ImanitySpigot 3 License is <u>**not shared with old ImanitySpigot 2**</u>.
