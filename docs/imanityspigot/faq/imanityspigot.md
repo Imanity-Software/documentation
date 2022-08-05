@@ -39,15 +39,6 @@ or **[ProtocolSupport](https://protocol.support/old/)**.
 
 ## For ImanitySpigot v2 users:
 
-:::danger
-ImanitySpigot 2 will be completely removed on **Monday, Aug 1st, 2022**. This means you will no longer be able to use
-after it is removed.
-
-Please consider updating to [**ImanitySpigot
-3**](#im-an-existing-customer-of-imanityspigot-2-how-do-i-upgrade-to-imanityspigot-3) as soon as possible before version
-2 is removed.
-:::
-
 ### I'm an existing customer of ImanitySpigot 2, how do I upgrade to ImanitySpigot 3?
 
 :::tip
