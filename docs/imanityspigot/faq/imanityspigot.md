@@ -15,8 +15,6 @@ using ImanitySpigot3.
 
 [**Yes, of course, we do!**](/imanityspigot/api/api-overview "Developer API")
 
----
-
 ## How to make my server support 1.7/1.9+?
 
 Since ImanitySpigot 3 started to develop and we decided to remove built-in multiple version support features. You
@@ -34,6 +32,16 @@ Install **[ViaRewind](https://www.spigotmc.org/resources/viarewind.52109/ "ViaRe
 or **[ProtocolSupport](https://protocol.support/old/)**.
 
 :::
+
+---
+
+## Additions
+
+### How does addition work on ImanitySpigot?
+
+When you purchase the Addition, you will not need to install it. It will be linked to your license, and will be
+available to use when you launch the Spigot.
+If you have an addition, you can change the desired options with the configuration file created.
 
 ---
 
