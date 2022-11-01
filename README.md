@@ -1,41 +1,51 @@
-# Website
+# Imanity Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+A documentation website for Imanity projects.
 
-### Installation
+Visit:
 
-```
-$ yarn
-```
+https://docs.imanity.dev/.
 
-### Local Development
+To run docs locally:
 
-```
-$ yarn start
-```
+1. Clone this repo
+2. Run `yarn` or `npm install`
+3. Run `yarn start` or `npm start`
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Deployment is done through by pushing the code to the main branch.
 
-### Build
+### Built With
 
-```
-$ yarn build
-```
+The Imanity Documentation is built using [Docusaurus v2](https://docusaurus.io/).
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## Contributing
 
-### Deployment
+Imanity Documentation uses [Conventional Commits](https://www.conventionalcommits.org).
 
-Using SSH:
+Scope format example for editing pages: `category/sub-category or page` (e.g. `ispigot/api`)
 
-```
-$ USE_SSH=true yarn deploy
-```
+We will review all issues and pull requests posted to this repository.
+If you notice any mistakes, or feel something is missing, feel free to create an issue to discuss with the team or
+directly create a pull request with suggestions. Here is a basic workflow to open a pull request:
 
-Not using SSH:
+### Edit existed pages
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+It will be easier for you to open the page you want to edit:
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+1. Scroll down to the bottom of the page you want to edit and click `Edit this page`.
+2. Click `Fork this repository`
+3. Make your changes.
+4. Open a pull request to the `develop` branch of this repository.
+
+### Forking
+
+1. Fork this repository to your own account and clone
+   it (`git clone https://github.com/Imanity-Software/documentation.git`)
+2. Remember to change your git remote value
+3. Create a feature branch for your changes (`git checkout -b feat/amazing-feature`).
+4. Make your changes.
+5. Commit your changes (`git commit -m 'Add some amazing feature'`).
+6. Push your changes to your fork (`git push origin feat/amazing-feature`).
+7. Open a pull request to the `develop` branch of this repository.
+
+Have a look at [CONTRIBUTING](.github/CONTRIBUTING.md) for further guidance.
