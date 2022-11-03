@@ -11,6 +11,14 @@ Currently, we do not provide any test servers, but we are working hard on this a
 At this moment, you're able to check `#💻┃servers` in our discord channel to view a list of the servers that currently
 using ImanitySpigot3.
 
+## How to update my ImanitySpigot?
+
+You can update your spigot build by typing `!update` in the server console, selecting a version and restart your server.
+
+It will automatically update the jar after restart. You can view your version information by typing `!version` in your console.
+
+Also, take a look of the `Automated Update system` settings in `imanity/rancha.yml`.
+
 ## Is there an API Documentation for Developers?
 
 [**Yes, of course, we do!**](/imanityspigot/api/api-overview "Developer API")
