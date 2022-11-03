@@ -9,7 +9,7 @@ description: View ImanitySpigot file structure and example config!
 
 The current displayed of the **Rancha** configuration is version **`2022.05.3 BUILD 4`**
 
-The current displayed of the **ImanitySpigot3** configuration is version **`2022.05.1 BUILD 2`**
+The current displayed of the **ImanitySpigot3** configuration is version **`2022.11.1 LTS BUILD 1`**
 
 ---
 
@@ -51,6 +51,7 @@ imanity
 autoDownloadSpark: true
 
 # Should tnt entities be hidden? (Just before they explode)
+# This option can provide a significant FPS boost to your players.
 hideTntEntities: false
 
 # Should allow the server to change the weather?
@@ -222,6 +223,12 @@ processPacketWhileSleeping: true
 
 # Here you can configure the optimizations about cannoning/tnt/explosions
 cannonOptimizations:
+
+  # Some complex cannons used by some players need some redstone blocks not to be destroyed when water flows over.
+  # This option makes some blocks (redstone, buttons etc...) resistant to water flow
+  # And unlocks many cannon possibilities for your players.
+  # Note: this do not offer performance boost to your server, this option just give more gameplay possibilities for cannoning.
+  isEssentialRedstoneWaterProof: false
 
   # This section allow you to edit how the merging system work
   # The merging system destroys the TNT entities considered 'useless' according to the configurable options below.
@@ -737,6 +744,31 @@ lagSpikeLogging:
 # You can increase it for more randomness or set to 0 to completely disable it.
 arrowTrajectoryRandomness: 1.0
 
+# In vanilla fishing hook, it always has a randomness value being applied to it trajectory.
+# Which could potentially break some experience in terms of combat.
+# You can increase it for more randomness or set to 0 to completely disable it.
+fishingHookTrajectoryRandomness: 1.0
+
+# In vanilla enderpearl, it always has a randomness value being applied to it trajectory.
+# Which could potentially break some experience in terms of combat.
+# You can increase it for more randomness or set to 0 to completely disable it.
+enderPearlTrajectoryRandomness: 1.0
+
+# In vanilla potion, it always has a randomness value being applied to it trajectory.
+# Which could potentially break some experience in terms of combat.
+# You can increase it for more randomness or set to 0 to completely disable it.
+potionTrajectoryRandomness: 1.0
+
+# In vanilla snow ball, it always has a randomness value being applied to it trajectory.
+# Which could potentially break some experience in terms of combat.
+# You can increase it for more randomness or set to 0 to completely disable it.
+snowBallTrajectoryRandomness: 1.0
+
+# In vanilla egg, it always has a randomness value being applied to it trajectory.
+# Which could potentially break some experience in terms of combat.
+# You can increase it for more randomness or set to 0 to completely disable it.
+eggTrajectoryRandomness: 1.0
+
 # Should allowed generation of different types of stones? (Granite, Diorite, Andesite...)
 differentVariantStoneGeneration: true
 
@@ -744,7 +776,7 @@ differentVariantStoneGeneration: true
 cooldownHopperWhenFull: true
 
 # Should unload chunks?
-doChunkUnload: true
+doChunkUnload: false
 
 # Should we count any kind of entity for entity spawning limit?
 countAllMobsForSpawning: false
@@ -782,6 +814,21 @@ maxQueuedSizeAutoSave: 60
 # Unit is milli seconds
 # (Chunk analyzer is a feature of Premium Plan, It's useless if you don't have the feature)
 potentialLagChunkTickTime: 2.0
+
+# This section allow you to configure the MobStacker settings
+# MobStacker is a feature that allow you to stack mobs together
+# So that you can have less entities in the world and then better performance
+# This is very useful for servers such as SkyBlock or Faction that run huge mob farms
+mobStacker:
+  enabled: false
+  onlyStackFromSpawner: false
+  stackRadius: 5.0
+  maxStackAmount: 50
+  ticksToStack: 100
+  ignoreEntityType:
+  - HORSE
+  - VILLAGER
+  - WOLF
 
 # The section that allow you to customize item merging range for specific types
 # If there is no types specify here it will select the itemMerge range from spigot.yml
