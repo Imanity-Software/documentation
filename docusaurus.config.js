@@ -98,6 +98,10 @@ const config = {
                 label: 'ImanitySpigot',
                 to: '/category/imanityspigot',
               },
+              {
+                label: 'Frequently Asked Question',
+                to: '/category/faq',
+              },
             ],
           },
           {
