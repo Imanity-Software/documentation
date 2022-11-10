@@ -2,6 +2,7 @@
   "label": "Frequently Asked Question",
   "position": 100,
   "link": {
+    "slug": "/category/faq",
     "type": "generated-index",
     "description": "Please read this before asking any questions!\nYour problem may be solved in this selection!"
   }
