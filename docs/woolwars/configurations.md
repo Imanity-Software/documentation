@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Configuration
+title: Configurations
 description: All woolwars configurations! 
 ---
 
