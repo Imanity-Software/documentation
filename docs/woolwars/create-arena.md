@@ -72,15 +72,17 @@ Open your setup menu, and click **`Center Location`** to set the center location
 
 ### Goal block
 
-Open your setup menu, and click **`Goal Blocks`**.
+Open your setup menu, and click **`Goal Blocks`**. You will then receive a multi block select tool.
 
-To set the first point, `left click` the block to be the first corner of goal block.
+`Left click` a block to add and `Right click` a block to remove.
 
-To set the second point, `right click` the block to be the second corner of goal block.
+:::tip
 
-After both position are selected, `Sneak + Right click on air` to complete the action.
+Blocks that is highlighted as **`Green Stained Glass`** are valid goal blocks.
 
-An example of selecting the goal block region:
+:::
+
+An example of selected goal block region:
 
 ![img.png](img/arena/goalblockregionexample.png)
 
@@ -89,7 +91,9 @@ An example of selecting the goal block region:
 Open your setup menu, and click **`Goal Blocks Type`**.
 
 `Add Items to the inventory` to add them to the goal type.
+
 `Remove Items from the inventory` to remove them from the goal type.
+
 `Close the inventory` to confirm the changes.
 
 ![img.png](img/arena/menu/goalblocktype_list.png)
