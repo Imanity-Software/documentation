@@ -1,16 +1,16 @@
 ---
 sidebar_position: 1
 title: Configurations
-description: All woolwars configurations! 
+description: All woolwars configurations!
 ---
 
 # Configurations
 
-All woolwars configurations.
+All WoolWars configurations.
 
 ---
 
-## **Files Structure**
+## **Files Structure** {#structure}
 
 ```
 woolwars
@@ -32,9 +32,9 @@ woolwars
 └── storage.yml
 ```
 
-### Directories
+## Directories {#directories}
 
-- **`arena`** - Flatfile storage for arenas. 
+- **`arena`** - Flatfile storage for arenas.
     - *This directory may not be created if you are using MongoDB.*
     - *Do not touch unless you know what you are doing.*
 - **`kit`** - Flatfile storage for kits. *(Do not touch unless you know what you are doing)*
@@ -48,9 +48,9 @@ woolwars
 
 ---
 
-### Files
+## Files {#files}
 
-**`global.yml`** - Global configuration file.
+### **`global.yml`** - Global configuration file. {#global}
 
 ```yaml title="global.yml"
 # The arena mode of the current server.
@@ -98,7 +98,7 @@ multiArena:
 
 ---
 
-**`hotbar.yml`** - Hotbar configuration file.
+### **`hotbar.yml`** - Hotbar configuration file. {#hotbar}
 
 ```yaml title="hotbar.yml"
 # The hotbar that will be given to players when they joined pregame.
@@ -152,7 +152,7 @@ spectating:
 
 ---
 
-**`menu.yml`** - Menu configuration file.
+### **`menu.yml`** - Menu configuration file. {#menu}
 
 ```yaml title="menu.yml"
 # Paginated menu buttons
@@ -459,17 +459,17 @@ kitPreviewMenu:
 
 ---
 
-**`messages.yml`** - The messages file.
+### **`messages.yml`** - The messages file. {#messages}
 
-This configuration file contains all the messages that are used in the plugin. 
-You can change the messages to whatever you want.
-But it's not only for messages, it also contains sounds, titles, and action bars.
-This configuration is powerful because it's extremely flexible.
-Every single key can be made to have everything (chat message, sound, title, actionbar).
-Or you can make it only have a chat message, or only have a sound, or only have a title, or only have an action bar.
-You can also make it have multiple chat messages.
-It also powered by MiniMessage, so you can use all the features of [MiniMessage](https://docs.adventure.kyori.net/minimessage/index.html) such as hover events, click events, and more.
+The configuration is a powerful tool that contains all the messages used in the plugin. You can change these messages to
+whatever you want, but it's not only for messages—it also contains sounds, titles, and action bars.
 
+This configuration is extremely flexible because every single key can be made to have everything (chat message, sound,
+title, action bar). Or you can make it only have a chat message, or only have a sound, or only have a title, or only
+have an action bar.
+
+You can also make it have multiple chat messages. It also powered by [**MiniMessage**](https://docs.adventure.kyori.net/minimessage/index.html), so you can use all the features of
+MiniMessage such as hover events and click events.
 
 ```yaml title="messages.yml"
 #
@@ -695,7 +695,7 @@ game:
 
 ---
 
-**``sidebar.yml``** - The configuration file for the sidebar.
+### **``sidebar.yml``** - The configuration file for the sidebar. {#sidebar}
 
 ```yaml title="sidebar.yml"
 # The text to display when timer is not running
@@ -772,7 +772,7 @@ postgame:
 
 ---
 
-**``storage.yml``** - The configuration file for the storage.
+### **``storage.yml``** - The configuration file for the storage. {#storage}
 
 ```yaml title="storage.yml"
 # The storage type to use.

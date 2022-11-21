@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 title: API
 description: All the available API in WoolWars! 
 ---
