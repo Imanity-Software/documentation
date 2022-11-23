@@ -29,7 +29,8 @@ woolwars
 ├── menu.yml
 ├── messages.yml
 ├── sidebar.yml
-└── storage.yml
+├── storage.yml
+└── tablist.yml
 ```
 
 ## Directories {#directories}
@@ -800,4 +801,309 @@ mongo:
   # The collection name to use for the storage.
   # Default: woolwars_
   collectionPrefix: woolwars_
+```
+
+### **``tablist.yml``** - The configuration file for the tablist. {#tablist}
+
+```yaml title="tablist.yml"
+#
+# Welcome to WoolWars tablist configuration.
+# This file contains all tablist settings.
+# You can change them to your liking.
+# Every tablist text here uses MiniMessage format. (https://docs.adventure.kyori.net/minimessage/format.html)
+# But you can also use color codes with the code '&'.
+#
+
+# Should tablist be enabled?
+enabled: true
+
+# The format for player list
+player_format:
+  # When player is dead or in spectator mode
+  spectator: "<gray><player>"
+  # When player is in game but not in a team
+  default: "<gray><player>"
+  # When player is in game and in a team
+  team: "<team_color><player>"
+
+# When player list is too long, it will display dots at the end
+many_dots: "<gray>..."
+
+# The tablist for pre-game
+pregame:
+  # The header
+  header:
+    - "<gold><bold>Imanity WoolWars"
+  # The footer
+  footer:
+    - "<gray>Waiting for players..."
+  # Columns
+  columns:
+    left:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 2
+        text: "<gold><bold>Game Info"
+      - slot: 3
+        text: "<yellow>Arena: <white><arena>"
+      - slot: 4
+        text: "<yellow>Players: <white><players>/<max_players>"
+      - slot: 5
+        text: "<yellow>Time: <white><time>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    middle:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 3
+        text: "<gold><bold>Lobby Players"
+      - slot: 4
+        text: "<list_players>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    right:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    far-right:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 2
+        text: "<gold><bold>Player Info"
+      - slot: 3
+        text: "<yellow>Team: <team_name>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+
+# The tablists for in-game rounds
+round:
+
+  # The tablist for round preparing
+  prepare:
+    # The header
+    header:
+      - "<gold><bold>Imanity WoolWars"
+    # The footer
+    footer:
+      - "<gray>Preparing round..."
+    # Columns
+    columns:
+      left:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Game Info"
+        - slot: 3
+          text: "<yellow>Arena: <white><arena>"
+        - slot: 4
+          text: "<yellow>Time: <white><time>"
+        - slot: 6
+          text: "<gold><bold>Round Info"
+        - slot: 7
+          text: "<yellow>Round: <white><round>"
+        - slot: 8
+          text: "<yellow>State: <white>Prepare"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      middle:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_0_name> <white><bold><team_0_scores_bar><gray><bold><team_0_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_0>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_1_name> <white><bold><team_1_scores_bar><gray><bold><team_1_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_1>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      far-right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Player Info"
+        - slot: 3
+          text: "<yellow>Team: <team_name>"
+        - slot: 4
+          text: "<yellow>Team Score: <white><team_scores>"
+        - slot: 5
+          text: "<yellow>Kills: <white><kills>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+
+  # The tablist for round fighting
+  fighting:
+    # The header
+    header:
+      - "<gold><bold>Imanity WoolWars"
+    # The footer
+    footer:
+      - "<yellow>Fight!"
+    # Columns
+    columns:
+      left:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Game Info"
+        - slot: 3
+          text: "<yellow>Arena: <white><arena>"
+        - slot: 4
+          text: "<yellow>Time: <white><time>"
+        - slot: 6
+          text: "<gold><bold>Round Info"
+        - slot: 7
+          text: "<yellow>Round: <white><round>"
+        - slot: 8
+          text: "<yellow>State: <white>Fighting"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      middle:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_0_name> <white><bold><team_0_scores_bar><gray><bold><team_0_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_0>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_1_name> <white><bold><team_1_scores_bar><gray><bold><team_1_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_1>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      far-right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Player Info"
+        - slot: 3
+          text: "<yellow>Team: <team_name>"
+        - slot: 4
+          text: "<yellow>Team Score: <white><team_scores>"
+        - slot: 5
+          text: "<yellow>Kills: <white><kills>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+
+  # The tablist for round ending
+  ending:
+    # The header
+    header:
+      - "<gold><bold>Imanity WoolWars"
+    # The footer
+    footer:
+      - "<gray>Ending round..."
+    # Columns
+    columns:
+      left:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Game Info"
+        - slot: 3
+          text: "<yellow>Arena: <white><arena>"
+        - slot: 4
+          text: "<yellow>Time: <white><time>"
+        - slot: 6
+          text: "<gold><bold>Round Info"
+        - slot: 7
+          text: "<yellow>Round: <white><round>"
+        - slot: 8
+          text: "<yellow>State: <white>Ending"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      middle:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_0_name> <white><bold><team_0_scores_bar><gray><bold><team_0_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_0>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 3
+          text: "<team_1_name> <white><bold><team_1_scores_bar><gray><bold><team_1_scores_to_win_bar>"
+        - slot: 4
+          text: "<team_players_1>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+      far-right:
+        - slot: 1
+          text: "<gray><strikethrough>----------------"
+        - slot: 2
+          text: "<gold><bold>Player Info"
+        - slot: 3
+          text: "<yellow>Team: <team_name>"
+        - slot: 4
+          text: "<yellow>Team Score: <white><team_scores>"
+        - slot: 5
+          text: "<yellow>Kills: <white><kills>"
+        - slot: 20
+          text: "<gray><strikethrough>----------------"
+
+# The tablist for post-game
+postgame:
+  # The header
+  header:
+    - "<gold><bold>Imanity WoolWars"
+  # The footer
+  footer:
+    - "<yellow>Thanks for playing!"
+  # Columns
+  columns:
+    left:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 2
+        text: "<gold><bold>Game Info"
+      - slot: 3
+        text: "<yellow>Arena: <white><arena>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    middle:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 3
+        text: "<team_0_name> <white><bold><team_0_scores_bar><gray><bold><team_0_scores_to_win_bar>"
+      - slot: 4
+        text: "<team_players_0>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    right:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 3
+        text: "<team_1_name> <white><bold><team_1_scores_bar><gray><bold><team_1_scores_to_win_bar>"
+      - slot: 4
+        text: "<team_players_1>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
+    far-right:
+      - slot: 1
+        text: "<gray><strikethrough>----------------"
+      - slot: 2
+        text: "<gold><bold>Player Info"
+      - slot: 3
+        text: "<yellow>Team: <team_name>"
+      - slot: 4
+        text: "<yellow>Team Score: <white><team_scores>"
+      - slot: 5
+        text: "<yellow>Kills: <white><kills>"
+      - slot: 20
+        text: "<gray><strikethrough>----------------"
 ```
