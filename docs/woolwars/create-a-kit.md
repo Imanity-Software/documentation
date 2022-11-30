@@ -1,6 +1,6 @@
 ---
 id: kit
-sidebar_position: 4
+sidebar_position: 3
 title: Create Kit
 description: An Example of how you can create and configure a kit!
 ---
