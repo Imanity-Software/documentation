@@ -14,7 +14,7 @@ manage all of them in one place, instead of setting up with complex commands.
 
 ## Demo kits
 
-WoolWars has a three default kits installed and ready to go!
+WoolWars has 3 default kits installed and ready to go!
 
 You can instantly view all the kits by typing `/wl kit list`!
 
