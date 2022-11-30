@@ -20,8 +20,14 @@ You can instantly view all the kits by typing `/wl kit list`!
 
 ## Video tutorial
 
+Coming soon!
+
+<!--
+
 <iframe width='720' height='405'
 src="https://www.youtube-nocookie.com/embed/aiaIu377stc?&theme=dark&keyboard=1&autohide=2&modestbranding=1&fs=0&rel=0"frameborder="0"></iframe>
+
+-->
 
 ## Creating a kit
 
