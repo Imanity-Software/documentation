@@ -35,7 +35,7 @@ Add Imanity Maven Repository to your Maven Project
     <!-- Imanity repo -->
     <repository>
         <id>imanity-repo</id>
-        <url>https://maven.imanity.dev/imanity-libraries/</url>
+        <url>https://repo.imanity.dev/imanity-libraries/</url>
     </repository>
 </repositories>
 ```
@@ -72,7 +72,7 @@ Add Imanity Maven Repository to your Gradle Project
 ```groovy
 repositories {
     maven {
-        url 'https://maven.imanity.dev/imanity-libraries/'
+        url 'https://repo.imanity.dev/imanity-libraries/'
     }
 }
 ```
