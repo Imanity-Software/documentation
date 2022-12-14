@@ -8,9 +8,13 @@ title: Mob AI & Goals
 ## Mob
 
 A Entity interface represents entities that has AI, extends LivingEntity. entity like Zombie, Skeleton, Pig, Cow... any
-entity that has AI will extends on it
+entity that has AI will extend on it
 
-**NOTE:** this interface is the same as modern Bukkit Mob interface (>=1.12). you can expect to use it the same as them.
+:::note
+
+This interface is the same as modern Bukkit Mob interface (>=1.12). you can expect to use it the same as them.
+
+:::
 
 **Class Interface:** `org.bukkit.entity.Mob`
 
@@ -112,6 +116,20 @@ entity that has AI will extends on it
      * @return the max head pitch rotation
      */
     int getMaxHeadPitch();
+    
+    /**
+     * Get if the mob have intelligence or not
+     *
+     * @return true if the mob have intelligence, false otherwise
+     */
+    boolean isIntelligence();
+
+    /**
+     * Allow or not to the mob to have intelligence
+     *
+     * @param intelligence boolean of the intelligence state
+     */
+    void setIntelligence(boolean intelligence);
 ```
 
 ---
