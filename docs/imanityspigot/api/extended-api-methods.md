@@ -24,7 +24,7 @@ You can found here all methods that ImanitySpigot added (or make them more advan
 
 ---
 
-## **Entity**
+## **Mob**
 
 You can found here all methods that ImanitySpigot added (or make them more advanced) for the developers about Entity.
 
@@ -33,7 +33,7 @@ You can found here all methods that ImanitySpigot added (or make them more advan
 - `boolean isIntelligence()` - Allow you to know if the entity has intelligence (AI)
 - `void setIntelligence(boolean intelligence)` - Allow you to set if the entity should have intelligence (AI)
 
-**Class:** `org.bukkit.entity.Entity`
+**Class:** `org.bukkit.entity.Mob`
 
 ---
 
