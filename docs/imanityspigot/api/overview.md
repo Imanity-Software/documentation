@@ -30,7 +30,6 @@ you must know.**
 Add Imanity Maven Repository to your Maven Project
 
 ```xml
-
 <repositories>
     <!-- Imanity repo -->
     <repository>
@@ -43,7 +42,6 @@ Add Imanity Maven Repository to your Maven Project
 Add Imanity Spigot API to your Maven Project Dependency
 
 ```xml
-
 <dependencies>
     <!-- ImanitySpigot API -->
     <dependency>
