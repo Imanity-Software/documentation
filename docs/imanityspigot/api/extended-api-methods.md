@@ -26,7 +26,7 @@ You can found here all methods that ImanitySpigot added (or make them more advan
 
 ## **Mob**
 
-You can found here all methods that ImanitySpigot added (or make them more advanced) for the developers about Entity.
+You can found here all methods that ImanitySpigot added (or make them more advanced) for the developers about Mob.
 
 **All Methods**
 
