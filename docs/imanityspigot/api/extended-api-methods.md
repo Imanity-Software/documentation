@@ -19,6 +19,9 @@ You can found here all methods that ImanitySpigot added (or make them more advan
   asynchronously with urgent priority (which is the priority while get chunk block main)
 - `CompletableFuture<Chunk> getChunkAtAsynchronously(Block block, AsyncPriority priority)` - Get Chunk asynchronously
   with urgent priority (which is the priority while get chunk block main)
+- `CompletableFuture<Boolean> createExplosionAsync(Location location, float power)` - Create explosion using AsyncExplosion addition *(Enterprise Only)*
+- `CompletableFuture<Boolean> createExplosionAsync(Location location, float power, boolean setFire)` - Create explosion using AsyncExplosion addition *(Enterprise Only)*
+- `CompletableFuture<Boolean> createExplosionAsync(Location location, float power, boolean setFire, boolean breakBlocks)` - Create explosion using AsyncExplosion addition *(Enterprise Only)*
 
 **Class:** `org.bukkit.World`
 
