@@ -15,6 +15,9 @@ URL: `https://imanity.dev/raisensu/download/ispigot3`
 
 Parameters:
 - `version`: The version of ImanitySpigot3. `(latest/latest/<yyyy>.<mm>.<release>b<build>[-LTS])`
+
+Headers:
+- `Authorization`: Your license key.
   
 Response Data:
 - JAR data
