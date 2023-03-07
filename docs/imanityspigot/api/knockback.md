@@ -9,7 +9,7 @@ Before using this API, you have to know that the knockback system of ImanitySpig
 than the others, BUT is for sure the more powerful and give you unlimited possibilities of knockback profiles.
 
 **This is advised to learn how this knockback system work before using the
-API: [Knockback Documentation](/category/imanityspigot-kb "Knockback Overview")**
+API: [ImanityKnockback Documentation](/category/kb "ImanityKnockback Overview")**
 
 ---
 
