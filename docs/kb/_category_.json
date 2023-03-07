@@ -1,10 +1,10 @@
 {
-  "position": 300,
-  "label": "KnockBack",
+  "position": 210,
+  "label": "ImanityKnockback",
   "link": {
     "type": "generated-index",
-    "title": "KnockBack",
-    "slug": "/category/imanityspigot-kb"
+    "title": "ImanityKnockback",
+    "slug": "/category/kb"
   },
   "customProps": {
     "description": "This description can be used in the swizzled DocCard"
