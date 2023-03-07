@@ -84,4 +84,4 @@ dependencies {
 }
 ```
 
-[apiVersion-url]: https://img.shields.io/badge/dynamic/json/?color=blue&label=API%20Version&query=version&url=https%3A%2F%2Frepo.imanity.dev%2Fapi%2Fmaven%2Flatest%2Fversion%2Fimanity-libraries%2Forg%252Fimanity%252Fimanityspigot%252Fapi&style=flat-square
+[apiVersion-url]: https://img.shields.io/badge/dynamic/json?color=blue&label=API%20Version&query=version&url=https%3A%2F%2Frepo.imanity.dev%2Fapi%2Fmaven%2Flatest%2Fversion%2Fimanity-libraries%2Forg%252Fimanity%252Fimanityspigot%252Fapi&style=flat-square
