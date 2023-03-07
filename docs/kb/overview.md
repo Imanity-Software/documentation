@@ -1,36 +1,42 @@
 ---
-id: knockback-overview
+id: overview
 sidebar_position: 100
 ---
 
 # Overview
 
-The overview of our Knockback system!
+The overview of our ImanityKnockback system!
 
-![kb-system.png](img/kb-system.png)
+![kb-banner.png](img/kb-banner.png)
 
-## About Knockback
+## About ImanityKnockback
 
-To achieve a good and flexible knockback system,
-We've made the system much more complex than any knockback system that exists on the market.
-But in the end, it causes some unfriendly issues for people looking for a quick and easy solution for Knockback,
-So we've separated the editor into two modules: **Advanced** and **Simple**.
+In order to create a robust and versatile knockback system, we have made the system more complex than existing knockback systems on the market.
+
+This provides a *more comprehensive solution*, but could be challenging for those who require a simpler approach.
+
+To address this, we have divided the editor into two modules: **Advanced** and **Simple**.
+
+This allows users to select the module that best meets their needs and provides a more user-friendly experience.
 
 ---
 
 ### Commands
 
-| Command           | Alias  | Description                                                  | Permission              |
-|-------------------|--------|--------------------------------------------------------------|-------------------------|
-| /knockback        | /kb    | Main Command for Knockback                                   | `imanity.command.kb`    |
-| /setknockback     | /setkb | The Command to apply knockback profile to a player           | `imanity.command.setkb` |
-| /currentknockback | /curkb | The Command to check current knockback profile from a player | `imanity.command.curkb` |
+| Command                              | Alias  | Description                                                  | Permission              |
+|--------------------------------------|--------|--------------------------------------------------------------|-------------------------|
+| /knockback                           | /kb    | Main Command for Knockback                                   | `imanity.command.kb`    |
+| */knockback <kb profile\>            | /kb    | Edit knockback                                               | `imanity.command.kb`    |
+| /setknockback <kb profile\> [player] | /setkb | The Command to apply knockback profile to a player           | `imanity.command.setkb` |
+| /currentknockback [player]           | /curkb | The Command to check current knockback profile from a player | `imanity.command.curkb` |
+
+**"*"** - only available for V3 knockback mode.
 
 ---
 
 ### Knockback Presets
 
-Looking for Quick solutions? Try our [**knockback
+Looking for quick solutions? Try our [**knockback
 presets**](https://imanity.dev/resources/category/2-knockback-configurations/)!
 
 **[NoDebuff (PotPvP)](https://imanity.dev/resources/resource/6-official-imanityspigot3-nodebuff-knockback-profile-set/)**
@@ -42,7 +48,9 @@ presets**](https://imanity.dev/resources/category/2-knockback-configurations/)!
 #### Should I use V2 or V3 Editor?
 
 If you are just looking for a ***classic way*** to edit Knockback, You couldn't understand how v3 works, or you think it
-took too much effort to do, use V2 without a doubt. V2 is basically a classic command editor, If you feel that V2 does
+took too much effort to do, use V2 without a doubt. 
+
+V2 is basically a classic command editor, If you feel that V2 does
 not fit your requirement, or you want to try out how our V3 Knockback works, You can use the V3 one
 
 #### Do you suggest people edit the knockback directly from the File?
@@ -70,8 +78,8 @@ the option to modify it, that is how it being designed!
 
 **Yes!** You can import your old kb by using the Knockback Importer. Please check the showcase video below.
 
-:::note
-This only works on knockback that was **Advanced** module.
+:::caution
+You can only import old knockback that was **"Advanced"** module.
 :::
 
 ---
@@ -90,7 +98,9 @@ Modifier**](#knockback-value-modifier)
 *(Example Profile in Advanced Editor)*
 
 You can see Knockback Profile as the package of knockback Behaviour. You can add an unlimited amount of Knockback
-Behaviour to a Knockback Profile. Knockback System will iterate to all Knockback Behaviours in the Knockback Profile and
+Behaviour to a Knockback Profile. 
+
+Knockback System will iterate to all Knockback Behaviours in the Knockback Profile and
 calculate the final result. In this Layer, all you have to do is to name the Knockback Profile, Add Knockback Behaviours
 you need, and apply the Profile to the player
 
@@ -100,16 +110,24 @@ you need, and apply the Profile to the player
 
 *(Example Behaviour in Advanced Editor)*
 
-Knockback Behaviour is the layer you will spend most of your time on. There are currently 5 different Behaviour Types
+Knockback Behaviour is the layer you will spend most of your time on. There are currently **5** different Behaviour Types
 you can add.
+
 Each Behaviour has its own aspect of calculating.
-They are **Velocities**, **Hit Delay**, **Bow Extra**, **Projectile**, and **Vanilla**. Each of them has its own options
-to configure.
-For example, **Velocities** has the opportunity to configure the Horizontal, Vertical of the Knockback, Hit Delay can
-configure...
-as the name said, Hit Delay, etc. They all weren't inside an Advanced generated Knockback.
-You have to add them individually. For example, If I don't want to set any Hit Delay on a Knockback Profile, I simply
-don't want to add the Behaviour in
+They are: **Velocities**, **Hit Delay**, **Bow Extra**, **Projectile**, and **Vanilla**. 
+
+Each of them has its own options
+to configure, for example:
+
+- **Velocities** - has the opportunity to configure the _Horizontal_, _Vertical_ of the Knockback.
+- **Hit Delay** - can configure as the name said, Hit Delay. 
+
+They all weren't inside an Advanced generated Knockback.
+
+Behaviors in Knockback Profiles are standalone, which allows for a high degree of customization. 
+To add individual behaviors, you must include them individually. 
+
+For instance, if you do not wish to set any Hit Delay on a Knockback Profile, you can simply omit the behavior from the profile.
 
 ### Knockback Value Modifier
 
@@ -118,9 +136,14 @@ don't want to add the Behaviour in
 *(Example Modifier in Advanced Editor)*
 
 The Knockback Value Modifier is the Layer to provide each option's dynamic values based on the situation. And a Modifier
-will be attached to an option. For example, I want to change Horizontal of the Knockback if Damager drank speed potion,
-then I can add Speed Modifier to the option Horizontal. There are 6 different modifiers, Randomize Modifier, Ping
-Modifier, Rod Modifier, Hit Delay Modifier, Ground Modifier, and Speed Modifier. You can check what each of them does in
+will be attached to an option. 
+
+For example, I want to change Horizontal of the Knockback if Damager drank speed potion,
+then I can add Speed Modifier to the option Horizontal. 
+
+There are 6 different modifiers, Randomize Modifier, Ping
+Modifier, Rod Modifier, Hit Delay Modifier, Ground Modifier, and Speed Modifier. 
+You can check what each of them does in
 their description.
 
 ### Frequently Asked Question
