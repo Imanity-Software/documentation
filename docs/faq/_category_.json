@@ -1,6 +1,6 @@
 {
   "label": "Frequently Asked Question",
-  "position": 100,
+  "position": 1000,
   "link": {
     "slug": "/category/faq",
     "type": "generated-index",
