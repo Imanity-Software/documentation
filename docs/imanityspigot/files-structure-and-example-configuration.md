@@ -1,6 +1,6 @@
 ---
 id: files-structure-and-example-config
-sidebar_position: 6
+sidebar_position: 600
 title: Files Structure and Example
 description: View ImanitySpigot file structure and example config!
 ---

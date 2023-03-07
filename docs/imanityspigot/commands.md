@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 200
 title: Commands
 description: All the ImanitySpigot built-in commands!
 ---
