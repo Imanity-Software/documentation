@@ -27,6 +27,21 @@ You can found here all methods that ImanitySpigot added (or make them more advan
 
 ---
 
+## **Entity**
+
+You can found here all methods that ImanitySpigot added (or make them more advanced) for the developers about Entity.
+
+**All Methods**
+
+- `boolean canStacked()` - Can the entity be stacked with mobstacker system.
+- `void setCanStacked(boolean canStacked)` - Set the ability for entity to be stacked with mobstacker system.
+- `int getStackAmount()` - Get the stack amount of the mobstacker system.
+- `void setStackAmount(int stackAmount)` - Set the stack amount of the mobstacker system.
+
+**Class:** `org.bukkit.entity.Entity`
+
+---
+
 ## **Mob**
 
 You can found here all methods that ImanitySpigot added (or make them more advanced) for the developers about Mob.
