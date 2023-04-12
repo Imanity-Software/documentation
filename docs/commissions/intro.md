@@ -10,28 +10,34 @@ Welcome to the Imanity Commissions!
 
 We as Imanity, are offering commissions for many kind of services, from simple to complex, from small to big, with a competitive price!
 
-## Who are we?
+Check more about us, our projects and our developer [here](/about).
 
-Imanity Software is a software development company that focuses on Minecraft and Discord. 
-We are a team of developers that are passionate about software development, and we are always looking for new challenges.
+## Services
 
-We are mainly known for [ImanitySpigot](https://builtbybit.com/resources/imanityspigot3-regular.10770/). ImanitySpigot is a 1.8 fork of TacoSpigot, 
-and it is a very optimized and stable Spigot fork that has been battle-tested for 4 years.
-The spigot has developed many [revolutionary features](https://github.com/Imanity-Software/ImanitySpigot3-git/blob/master/FEATURES.md) that no other competitor has. 
+We currently offer developing minecraft plugins, discord bots, and web backend.
 
-We also built many projects such as:
-- [**ImanityKnockback**](https://builtbybit.com/resources/imanityknockback-kb-and-projectile.24842/) - Knockback profiles system that allows you to create knockback profiles and apply them to your players with intuitive editor and behaviour structure.
-- [**Woolwars**](https://builtbybit.com/resources/woolwars-competitive-pvp-gamemode.26119/) - Minecraft minigame that is inspired by Hypixel's WoolWars. with powerful in-game editor and intuitive configuration. currently open-sourced and free to use.
-- [**Fairy**](https://github.com/FairyProject/fairy) - Universal framework that built with Minecraft Plugin in mind, attempts to bring the beauty of Dependency Injection inspired by Spring to Minecraft Plugins.
-- **Raisensu** - Licensing system built in mind for ImanitySpigot with many features such as product management, update APIs, discord bot, and more.
-- **Chiketto** - Discord ticket system with features such as categories, questions, activity tracking, and more.
-- **Rancha** - The launcher program built for being part of ImanitySpigot, with features such as auto-updater, license validation, and library management etc
+Or you can also request to update / modify your existing projects.
 
-### LeeGod
+### Minecraft Plugins
 
-LeeGod is the founder of Imanity Software, and he is the main developer of ImanitySpigot, ImanityDiscord, and ImanityBungee.
+We are offering commissions for Minecraft plugins, such as minigames, utilities, and more! We are capable of developing plugins for Bukkit, Bungee, Velocity, any main stream Minecraft server software that supports plugins in Java.
 
-We are offering commissions for the following services:
-- Minecraft Plugins
-- Discord Bots
-- Web Backend Development
+### Discord Bot
+
+We also offer commissions for Discord bots, we are capable of developing Discord bots using JDA!
+
+### Web Backend
+
+Also for web backend, we are capable of developing web backend using Spring Boot or Quarkus!
+
+## Further Information
+
+Interested in our services? Take a look to our [pricing](/commissions/pricing) page to see our pricing and how to order!
+
+And if you want to learn more about how we operate each commissions, take a look to our [operation](/commissions/operation) page!
+
+If you have any questions, take a look to our [FAQ](/commissions/faq) page, or you can also contact us via [Discord](https://go.imanity.dev/discord)!
+
+## Contact
+
+If you have any questions, you can contact us via [Discord](https://go.imanity.dev/discord)! you can either open a ticket in our support server, or you can contact our staff directly.
