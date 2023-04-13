@@ -9,10 +9,9 @@ sidebar_position: 1
 
 ◀ Getting started by selecting a category on the left!
 
----
+See our [About](/about) page for more information about us!
 
-## Commission
-
+Want to make commission with us? See our [Commissions](/commissions) page!
 
 ---
 
