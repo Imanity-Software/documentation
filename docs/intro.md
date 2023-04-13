@@ -11,11 +11,11 @@ sidebar_position: 1
 
 See our [About](/about) page for more information about us!
 
-Want to make commission with us? See our [Commissions](/commissions) page!
+Want to make commission with us? See our [Commission](/category/commission) page!
 
 ---
 
 ## Projects
 - [ImanitySpigot3](/category/imanityspigot)
 - [ImanityKnockback](/category/kb)
-- [WoolWars](/category/woolwars)
+- [WoolWars](/woolwars/home)
