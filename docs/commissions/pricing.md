@@ -15,6 +15,8 @@ All pricing listed below are the base price for each service from scale small to
 It's for **reference only**, and the actual price may vary depending on the features you requested.
 But you can use this as a reference to estimate the price for your order.
 
+If the service you looking for is not listed below, please contact us via [Discord](https://go.imanity.dev/discord)!
+
 | Service          | Small | Medium | Large |
 |------------------|-------|--------|-------|
 | Minecraft Plugin | 10$+  | 60$+   | 150$+ |

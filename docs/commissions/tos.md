@@ -15,12 +15,13 @@ description: The terms of service for our commissions!
 - Anything related to commissions with us is done fully through [Discord server](https://go.imanity.dev/discord).
 - We will only start working on your commission after you have at least 50% deposit.
 - You must pay 100% of the commission before we deliver the commission.
+- Estimated time can be changed if it's agreed by both parties.
 - You are not allowed to make major changes/revision to your commission after deposit is paid. If you want to make major changes/revision, we will consider it as an extra commission.
 - Unless you paid for after-sales support, we will not provide any support for your commission after it is delivered.
 - If the commission is considered as cancelled, no more work will be done on the commission.
 
 ## Refund
-- If we failed to deliver your commission in the estimated time, you are allowed to request a refund. (depends on how many works we have done)
+- If we failed to deliver your commission in the estimated time, you are allowed to request a refund.
 - If we decided to cancel your commission, you are guaranteed to get a full refund.
 - If you decided to cancel your commission, we will not provide any refund.
 - If the commission is delivered, or the project is completed and preview is sent to you, we will not provide any refund.
