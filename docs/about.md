@@ -1,5 +1,5 @@
 ---
-slug: /about
+title: About 
 sidebar_position: 2
 ---
 

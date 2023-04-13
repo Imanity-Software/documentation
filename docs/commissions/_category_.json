@@ -1,8 +1,8 @@
 {
   "label": "Commission",
-  "position": 400,
+  "position": 100,
   "link": {
-    "type": "doc",
-    "id": "home"
+    "type": "generated-index",
+    "description": "The complete document for Commissions!"
   }
 }
