@@ -9,4 +9,13 @@ sidebar_position: 1
 
 ◀ Getting started by selecting a category on the left!
 
-Have no idea what you want to view first? Try [ImanitySpigot](/category/imanityspigot)!
+See our [About](/about) page for more information about us!
+
+Want to make commission with us? See our [Commission](/category/commission) page!
+
+---
+
+## Projects
+- [ImanitySpigot3](/category/imanityspigot)
+- [ImanityKnockback](/category/kb)
+- [WoolWars](/woolwars/home)
