@@ -49,3 +49,9 @@ It will be easier for you to open the page you want to edit:
 7. Open a pull request to the `develop` branch of this repository.
 
 Have a look at [CONTRIBUTING](.github/CONTRIBUTING.md) for further guidance.
+
+### License
+
+Imanity Docs is [MIT licensed](./LICENSE).
+
+The Imanity documentation (e.g., `.md` files in the `/docs` folder) is [Creative Commons licensed](./LICENSE-docs).
