@@ -10,6 +10,21 @@ description: All the Non-Cancellable or Cancellable Events!
 
 All events mentioned in this list are implemented Cancellable.
 
+### **TNTPrimeEvent**
+
+Event called when a TNT is primed, ported from modern Bukkit API.
+
+**All Methods:**
+
+```java
+Block #getBlock()
+PrimeCause #getCause()
+Entity #getPrimingEntity()
+Block #getPrimingBlock()
+```
+
+**Class:** `org.bukkit.event.block.TNTPrimeEvent`
+
 ### **PlayerPearlRefundEvent**
 
 Event called when a pearl launched by a player is refunded

@@ -112,3 +112,10 @@ You can found here all methods that ImanitySpigot added (or make them more advan
 **Class:** `org.bukkit.Server`
 
 ---
+
+## **Vector**
+
+**All Methods**
+- `vector getCrossProduct(Vector vector)` - Non-mutative getCrossProduct method to Vector.
+
+---
