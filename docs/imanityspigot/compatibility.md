@@ -19,19 +19,22 @@ If you wonder how is Java Compatibility for ImanitySpigot3, you can check this s
 
 ### **Official Oracle Java / JDK**
 
-| Version | Level | Details                                                                                                                  |
-|:--------|:-----:|--------------------------------------------------------------------------------------------------------------------------|
-| Java 8  |   ✅   | Natively Supported.                                                                                                      |
-| Java 9  |   ❔   | Untested.                                                                                                                |
-| Java 10 |   ❔   | Untested.                                                                                                                |
-| Java 11 |  ⚠️   | Natively Supported, a Small portion of the Plugin may not be Supported.                                                  |
-| Java 12 |   ❔   | Untested.                                                                                                                |
-| Java 13 |   ❔   | Untested.                                                                                                                |
-| Java 14 |   ❔   | Untested.                                                                                                                |
-| Java 15 |   ❔   | Untested.                                                                                                                |
-| Java 16 |  ⚠️   | Natively Supported, Startup flag `--illegal-access=permit` required.<br/>A huge portion of Plugins may not be Supported. |
-| Java 17 |  ⚠️   | Natively Supported, A huge portion of the Plugin may not be Supported.                                                   |
-| Java 18 |   ❔   | Untested.                                                                                                                |
+| Version     | Level | Details                                                                                                                  |
+|:------------|:-----:|--------------------------------------------------------------------------------------------------------------------------|
+| Java 8 LTS  |   ✅   | Natively Supported.                                                                                                      |
+| Java 9      |   ❔   | Untested.                                                                                                                |
+| Java 10     |   ❔   | Untested.                                                                                                                |
+| Java 11 LTS |  ⚠️   | Natively Supported, a Small portion of the Plugin may not be Supported.                                                  |
+| Java 12     |   ❔   | Untested.                                                                                                                |
+| Java 13     |   ❔   | Untested.                                                                                                                |
+| Java 14     |   ❔   | Untested.                                                                                                                |
+| Java 15     |   ❔   | Untested.                                                                                                                |
+| Java 16     |  ⚠️   | Natively Supported, Startup flag `--illegal-access=permit` required.<br/>A huge portion of Plugins may not be Supported. |
+| Java 17 LTS |  ⚠️   | Natively Supported, A huge portion of the Plugin may not be Supported.                                                   |
+| Java 18     |   ❔   | Untested.                                                                                                                |
+| Java 19     |   ❔   | Untested.                                                                                                                |
+| Java 20     |   ❔   | Untested.                                                                                                                |
+| Java 21 LTS |  ⚠️️  | Natively Supported, A huge portion of the Plugin may not be Supported.                                                   |
 
 ## Plugin Compatibility
 
