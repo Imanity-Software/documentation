@@ -30,14 +30,14 @@ These commands are only available to players with `woolwars.admin` permission.
 | Command                              | Description                                        |
 |--------------------------------------|----------------------------------------------------|
 | /woolwars arena                      | Manage arenas.                                     |
-| /woolwars arena create <id\>         | Create a new arena.                                |
-| /woolwars arena delete <id\>         | Delete a arena.                                    |
-| /woolwars arena edit <id\> [team-id] | Edit an arena. (Edit team if team-id is specified) |
+| /woolwars arena create \<id>         | Create a new arena.                                |
+| /woolwars arena delete \<id>         | Delete a arena.                                    |
+| /woolwars arena edit \<id> [team-id] | Edit an arena. (Edit team if team-id is specified) |
 | /woolwars kit                        | Manage kits.                                       |
 | /woolwars kit list                   | List all kits.                                     |
-| /woolwars kit create <kit id\>       | Create a new kit.                                  |
-| /woolwars kit delete <kit id\>       | Delete a kit.                                      |
-| /woolwars kit edit <kit id\>         | Edit a kit.                                        |
+| /woolwars kit create \<kit id>       | Create a new kit.                                  |
+| /woolwars kit delete \<kit id>       | Delete a kit.                                      |
+| /woolwars kit edit \<kit id>         | Edit a kit.                                        |
 | /woolwars kit save                   | Save the content of the kit you were editing.      |
 | /woolwars kit cancel                 | Cancel the kit editing.                            |
 | /woolwars kit goalblock              | Gather the goal block item.                        |

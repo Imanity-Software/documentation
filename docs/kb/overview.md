@@ -26,8 +26,8 @@ This allows users to select the module that best meets their needs and provides 
 | Command                              | Alias  | Description                                                  | Permission              |
 |--------------------------------------|--------|--------------------------------------------------------------|-------------------------|
 | /knockback                           | /kb    | Main Command for Knockback                                   | `imanity.command.kb`    |
-| */knockback <kb profile\>            | /kb    | Edit knockback                                               | `imanity.command.kb`    |
-| /setknockback <kb profile\> [player] | /setkb | The Command to apply knockback profile to a player           | `imanity.command.setkb` |
+| */knockback \<kb profile>            | /kb    | Edit knockback                                               | `imanity.command.kb`    |
+| /setknockback \<kb profile> [player] | /setkb | The Command to apply knockback profile to a player           | `imanity.command.setkb` |
 | /currentknockback [player]           | /curkb | The Command to check current knockback profile from a player | `imanity.command.curkb` |
 
 **"*"** - only available for V3 knockback mode.
