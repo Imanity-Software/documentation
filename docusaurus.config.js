@@ -50,9 +50,10 @@ const config = {
     ],
   ],
 
+  themes: ['docusaurus-theme-search-typesense'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       navbar: {
         title: 'Imanity Docs',
         logo: {
@@ -148,7 +149,23 @@ const config = {
         darkTheme: darkTheme,
         additionalLanguages: ['java', 'groovy', 'bash', 'diff', 'json'],
       },
-    }),
+      typesense: {
+        typesenseCollectionName: 'docusaurus-2',
+
+        typesenseServerConfig: {
+          nodes: [
+            {
+              host: 'typesense-search.imanity.dev',
+              port: 443,
+              protocol: 'https',
+            },
+          ],
+          apiKey: 'vq0Jn5wOw1E8DD28UiXRxhIgKqMGObDN',
+        },
+        typesenseSearchParameters: {},
+        contextualSearch: true,
+      },
+    },
 };
 
 module.exports = config;
