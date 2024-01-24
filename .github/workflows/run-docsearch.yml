@@ -1,6 +1,6 @@
 name: Run DocSearch
 run-name: Crawl and index documentation site for Typesense DocSearch
-on: [push]
+on: [deployment_status]
 
 jobs:
   typesense_scraper:
