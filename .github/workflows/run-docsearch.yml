@@ -1,0 +1,28 @@
+name: Run DocSearch
+run-name: Crawl and index documentation site for Typesense DocSearch
+on: [push]
+
+jobs:
+  typesense_scraper:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3   # You MUST check out your repository first!
+
+      - name: Run DocSearch Scraper
+        uses: celsiusnarhwal/typesense-scraper@v2
+        with:
+          # The secret containing your Typesense API key. Required.
+          api-key: ${{ secrets.TYPESENSE_API_KEY }}
+
+          # The hostname or IP address of your Typesense server. Required.
+          host: typesense-search.imanity.dev
+
+          # The port on which your Typesense server is listening. Optional. Default: 8108.
+          port: 443
+
+          # The protocol to use when connecting to your Typesense server. Optional. Default: http.
+          protocol: https
+
+          # The path to your DocSearch config file. Optional. Default: docsearch.config.json.
+          config: docsearch.config.json
