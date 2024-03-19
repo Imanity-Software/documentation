@@ -18,7 +18,7 @@ respawn in the next round if they are killed. The first team to win all three ro
 
 ## Features {#features}
 
-- 1.8.8 - 1.19.2 Support.
+- 1.8.8 - 1.20.4 Support.
 - Flat file and MongoDB support.
 - Interactive arena customization.
 - Interactive kit customization.
