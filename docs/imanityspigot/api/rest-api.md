@@ -21,3 +21,9 @@ Headers:
   
 Response Data:
 - JAR data
+
+Example using `curl`:
+
+- ```bash
+  curl -o rancha.jar -H "Authorization: XXXX-XXXX-XXXX-XXXX" "https://imanity.dev/raisensu/download/ispigot3?version=latest"
+  ```

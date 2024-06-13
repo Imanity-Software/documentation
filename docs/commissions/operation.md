@@ -15,7 +15,6 @@ The process of how we operate our commissions is pretty simple, and we will expl
 - You can decide if you allow us to use your order as a reference for our portfolio, or you can choose to keep it private.
 - If everything is good and features are clear, we will estimate the time and price for your order!
 - Once the order is accepted, we will require a **50% deposit** before we start working on your order. or you can choose to pay the full price before we start working on your order.
-- Payment are handled by [Tebex Checkout](https://shop.imanity.dev/category/custom), you can pay with PayPal, Credit Card, and more!
 - Once payment is received, we will start working on your order!
 - You will be updated with the progress of your order every 24 ~ 48 hours unless specified.
 - If you decided to cancel your order, the deposit will not be refunded.
