@@ -1,7 +1,7 @@
 ---
 sidebar_position: 6
 title: Configurations
-description: All woolwars configurations!
+description: All RaytraceAntiXray configurations!
 ---
 
 # Configurations
