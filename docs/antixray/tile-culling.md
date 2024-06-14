@@ -1,17 +1,24 @@
 ---
-sidebar_position: 6
+sidebar_position: 3
 title: Tile Culling
 description: Tile Culling documentation for RaytraceAntiXray!
 ---
+
+![tile-culling.jpeg](img/tile-culling.jpeg)
 
 # Tile Culling
 
 Tile culling is an **PAID** addon for RaytraceAntiXray that will cull the tiles that are not visible to the player.
 Anything such as chest, furnace, hopper, etc. can be culled.
 
-![tile-culling.jpeg](img/tile-culling.jpeg)
-
 ![tile-culling.gif](img/tile-culling.gif)
+
+---
+## How does it work?
+
+Tile culling is an extension on top of the obfuscation engine of the RaytraceAntiXray core.
+It adds additional tile entity packet handling to the engine, and culls the tiles that are not visible to the player.
+A lot of settings are shared with the core engine, such as the raytrace rate, max distance, tracePlacedBlock, etc.
 
 ---
 ## Where to get it?
@@ -21,17 +28,8 @@ If you purchase from BuiltByBit, you can purchase the addon from the addon page 
 
 ### Special Offer
 
-If you purchase the Tile Culling from [SpigotMC](https://www.spigotmc.org/resources/1-8-1-20-6-raytraceantixray-ores-entities-tiles.116253/), [BuiltByBit](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/), or [Polymart](https://polymart.org/resource/raytraceantixray.5798).
+If you purchase the RaytraceAntiXray from [SpigotMC](https://www.spigotmc.org/resources/1-8-1-20-6-raytraceantixray-ores-entities-tiles.116253/), [BuiltByBit](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/), or [Polymart](https://polymart.org/resource/raytraceantixray.5798).
 You can leave a review on the product page and get a free addon of your choice!
-
-![review.jpg](img/review.jpg)
-
----
-## How does it work?
-
-Tile culling is an extension on top of the obfuscation engine of the RaytraceAntiXray core.
-It adds additional tile entity packet handling to the engine, and culls the tiles that are not visible to the player.
-A lot of settings are shared with the core engine, such as the raytrace rate, max distance, tracePlacedBlock, etc.
 
 ---
 ## Configuration
