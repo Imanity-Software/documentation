@@ -92,44 +92,46 @@ maxBlockHeight: 320
 ```
 
 ### Tile Entity Types
-- BEACON
-- BREWING_STAND
-- CHEST
-- COMMAND_BLOCK
-- STRUCTURE_BLOCK
-- COMPARATOR
-- CONDUIT
-- DAYLIGHT_DETECTOR
-- DISPENSER
-- DROPPER
-- ENCHANTING_TABLE
-- END_PORTAL_FRAME
-- FURNACE
-- LECTERN
-- HOPPER
-- JUKEBOX
-- NOTE_BLOCK
-- REPEATER
-- TRAPPED_CHEST
-- CRAFTING_TABLE
-- BARREL
-- BELL
-- JIGSAW
-- BEEHIVE
-- SCULK_SENSOR
-- CALIBRATED_SCULK_SENSOR
-- SCULK_CATALYST
-- SCULK_SHRIEKER
-- CHISELED_BOOKSHELF
-- DECORATED_POT
-- SMOKER
-- BLAST_FURNACE
-- CRAFTER
-- SPAWNER
-- TRIAL_SPAWNER
-- PISTON
-- SHULKER_BOX - This will cover all shulker boxes colors
-- SIGN - This will cover all sign types
-- BANNER - This will cover all banner types
-- HEAD - This will cover all head types (player, mob, etc.)
-- BED - This will cover all bed colors
+
+| ID                        | Additional Description                              |
+|---------------------------|-----------------------------------------------------|
+| `BEACON`                  |                                                     |
+| `BREWING_STAND`           |                                                     |
+| `CHEST`                   |                                                     |
+| `COMMAND_BLOCK`           |                                                     |
+| `STRUCTURE_BLOCK`         |                                                     |
+| `COMPARATOR`              |                                                     |
+| `CONDUIT`                 |                                                     |
+| `DISPENSER`               |                                                     |
+| `DROPPER`                 |                                                     |
+| `ENCHANTING_TABLE`        |                                                     |
+| `END_PORTAL_FRAME`        |                                                     |
+| `FURNACE`                 |                                                     |
+| `LECTERN`                 |                                                     |
+| `HOPPER`                  |                                                     |
+| `JUKEBOX`                 |                                                     |
+| `NOTE_BLOCK`              |                                                     |
+| `REPEATER`                |                                                     |
+| `TRAPPED_CHEST`           |                                                     |
+| `CRAFTING_TABLE`          |                                                     |
+| `BARREL`                  |                                                     |
+| `BELL`                    |                                                     |
+| `JIGSAW`                  |                                                     |
+| `BEEHIVE`                 |                                                     |
+| `SCULK_SENSOR`            |                                                     |
+| `CALIBRATED_SCULK_SENSOR` |                                                     |
+| `SCULK_CATALYST`          |                                                     |
+| `SCULK_SHRIEKER`          |                                                     |
+| `CHISELED_BOOKSHELF`      |                                                     |
+| `DECORATED_POT`           |                                                     |
+| `SMOKER`                  |                                                     |
+| `BLAST_FURNACE`           |                                                     |
+| `CRAFTER`                 |                                                     |
+| `SPAWNER`                 |                                                     |
+| `TRIAL_SPAWNER`           |                                                     |
+| `PISTON`                  |                                                     |
+| `SHULKER_BOX`             | This will cover all shulker boxes colors.           |
+| `SIGN`                    | This will cover all sign types.                     |
+| `BANNER`                  | This will cover all banner types.                   |
+| `HEAD`                    | This will cover all head types. (player, mob, etc.) |
+| `BED`                     | This will cover all bed colors.                     |
