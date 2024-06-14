@@ -33,7 +33,7 @@ You can leave a review on the product page and get a free addon of your choice!
 ---
 ## Configuration
 
-### **`entity-culling default-XXX.yml`** - Default configuration file for EntityCulling. {#entity-culling}
+### Default configuration file
 
 ```yaml title="default-overworld.yml"
 # This is the default config for the overworld,
