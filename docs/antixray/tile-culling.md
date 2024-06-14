@@ -11,7 +11,7 @@ Anything such as chest, furnace, hopper, etc. can be culled.
 
 ![tile-culling.jpeg](img/tile-culling.jpeg)
 
-https://github.com/Imanity-Software/documentation/assets/36093806/5da087c0-e32c-45f1-a3f8-bedc3bf97edd
+![tile-culling.gif](img/tile-culling.gif)
 
 ---
 ## Where to get it?
