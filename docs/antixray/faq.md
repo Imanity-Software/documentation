@@ -21,6 +21,13 @@ You can go ahead and try to mine them, but you will not see them disappearing be
 ![Fake Ores](img/fake-ore.gif)
 
 ---
+## How do I have temporary access to x-ray? / Disable x-ray for a player?
+
+You can do it by using `/antixray toggle`!
+
+![Toggle Xray](img/toggle.gif)
+
+---
 ## Where can I get all the addons?
 
 ### BuiltByBit customers
