@@ -6,7 +6,7 @@ description: Frequently asked questions for RaytraceAntiXray!
 
 # FAQ
 
-## What is the difference between RaytraceAntiXray and Paper's Anti-Xray?
+### Q: What is the difference between RaytraceAntiXray and Paper's Anti-Xray?
 Paper's Ant-Xray only hide ores that are surrounded by blocks, because of that **all exposed ores are still visible to xray**.
 RaytraceAntiXray uses raytracing to determine if the ores are visible to the player, and show/hide them runtime.
 And with all the addons, essentially get rid of every advantage of ESP.
@@ -14,30 +14,38 @@ And with all the addons, essentially get rid of every advantage of ESP.
 ![RaytraceAntiXray](img/raytraceantixray.gif)
 
 ---
-## Why are ores visible when I open x-ray?
+### Q: Why are ores visible when I open x-ray?
 Those are **Fake Ore** feature of RaytraceAntiXray.
 You can go ahead and try to mine them, but you will not see them disappearing before your eyes.
 
 ![Fake Ores](img/fake-ore.gif)
 
 ---
-## How do I have temporary access to x-ray? / Disable x-ray for a player?
+### Q: How do I have temporary access to x-ray? / Disable x-ray for a player?
 
 You can do it by using `/antixray toggle`!
 
 ![Toggle Xray](img/toggle.gif)
 
 ---
-## Where can I get all the addons?
+### Q: Where can I get all the addons?
 
-### BuiltByBit customers
+:::info
+
+#### BuiltByBit customers
 If you purchased through [BuiltByBit](https://builtbybit.com/resources/raytraceantixray-ores-entities-tiles.41896/),
 you can purchase it directly on the right side of the resource page.
 
 ![BBB Addons](img/bbb-addons.png)
 
-### SpigotMC customers
+:::
+
+:::info
+
+#### SpigotMC customers
 If you purchased through [SpigotMC](https://www.spigotmc.org/resources/1-8-1-21-raytraceantixray-ores-entities-tiles-itemsadder-support.116253/),
 You can purchase it through our [store](https://imanity.dev/resources/).
 
 ![SpigotMC Addons](img/spigotmc-addons.png)
+
+:::
