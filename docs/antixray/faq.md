@@ -14,6 +14,12 @@ And with all the addons, essentially get rid of every advantage of ESP.
 ![RaytraceAntiXray](img/raytraceantixray.gif)
 
 ---
+### Q: How much memory does RaytraceAntiXray use?
+
+Overall, RaytraceAntiXray uses around 5-10MB of memory per player with a render distance of 16 and spread across the world.
+We would suggest to add 10-20% more memory to your server to accommodate RaytraceAntiXray if your memory usage was already high.
+
+---
 ### Q: Why are ores visible when I open x-ray?
 Those are **Fake Ore** feature of RaytraceAntiXray.
 You can go ahead and try to mine them, but you will not see them disappearing before your eyes.
