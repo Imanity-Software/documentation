@@ -2,7 +2,7 @@
   "label": "RaytraceAntiXray",
   "position": 190,
   "link": {
-    "type": "generated-index",
-    "description": "The complete documentation for RaytraceAntiXray."
+    "type": "doc",
+    "id": "home"
   }
 }
