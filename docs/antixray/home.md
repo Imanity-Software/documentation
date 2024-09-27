@@ -20,7 +20,7 @@ description: The home of RaytraceAntiXray!
 
 ## Index
 - [Commands](commands) - List of commands and permissions
-- [Configurations](configurations) - List of configurations and explanations
+- [Configurations](configurations.mdx) - List of configurations and explanations
 - Addons - List of addons and explanations
     - [Entity Culling](entity-culling) - Cull entities (creeper, other players etc) from the player's view
     - [Tile Culling](tile-culling) - Cull tiles (chest, banners, etc) from the player's view
