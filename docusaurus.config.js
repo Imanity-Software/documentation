@@ -142,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© ${new Date().getFullYear()} Imanity Software`,
+        copyright: `© 2025 Imanity Co., Ltd.`,
       },
       prism: {
         theme: lightTheme,
