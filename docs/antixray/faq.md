@@ -14,6 +14,31 @@ And with all the addons, essentially get rid of every advantage of ESP.
 ![RaytraceAntiXray](img/raytraceantixray.gif)
 
 ---
+### Q: How to obtain my Discord Client role?
+
+1. If you purchased from SpigotMC:
+Open a conversation here: https://www.spigotmc.org/conversations/add with [this spigot account](https://www.spigotmc.org/members/leelee.41873/) as participant, and write your discord username in the conversation.
+Alternatively, a profile post in this spigot profile `only if you can't open a conversation.`.
+
+::note
+
+to verify yourself in the title and attach your discord username in the content. we will verify it manually for you, it may take up to 24 hours!
+
+:::
+
+2. If you purchased from BuiltByBit:
+Use `/sync` command in the Discord server.
+
+3. If you purchased from imanity.dev:
+Message your discord username to [this imanity account](https://imanity.dev/profile/LeeGod/).
+
+::note
+
+to verify yourself in the title and attach your discord username in the content. we will verify it manually for you, it may take up to 24 hours!
+
+:::
+
+---
 ### Q: How much memory does RaytraceAntiXray use?
 
 Overall, RaytraceAntiXray uses around 5-10MB of memory per player with a render distance of 16 and spread across the world.
