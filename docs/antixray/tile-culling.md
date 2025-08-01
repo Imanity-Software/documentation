@@ -79,6 +79,7 @@ tileEntities:
   - CRAFTER
   - SPAWNER
   - TRIAL_SPAWNER
+  - VAULT
   - PISTON
   - SHULKER_BOX
   - SIGN
@@ -129,6 +130,7 @@ maxBlockHeight: 320
 | `CRAFTER`                 |                                                     |
 | `SPAWNER`                 |                                                     |
 | `TRIAL_SPAWNER`           |                                                     |
+| `VAULT`                   |                                                     |
 | `PISTON`                  |                                                     |
 | `SHULKER_BOX`             | This will cover all shulker boxes colors.           |
 | `SIGN`                    | This will cover all sign types.                     |
